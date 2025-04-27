@@ -30,11 +30,18 @@ By offering structured insights, the project contributes to more personalized, c
 
 ## How to Run
 
-1. **Clone the repository** (or set up the folder structure manually as described).
-2. Navigate to the `scripts/` directory.
-3. Generate the dataset:
-   ```bash
-   python3 dataset_generator.py
+1. Clone the repository.
+
+2. Navigate to the `scripts/` directory:  
+cd scripts
+
+3. Generate the synthetic client dataset:  
+python3 dataset_generator.py
+
+4. Perform risk scoring and diversification analysis:  
+python3 risk_scoring.py
+
+5. The final output file `portfolio_risk_scored.csv` will be created under the `output/` directory.
 ## Author
 
 **Ahmet Guclu**  
